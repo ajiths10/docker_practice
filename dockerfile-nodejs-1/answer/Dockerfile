@@ -1,4 +1,5 @@
-FROM node:6-alpine
+# FROM node:6-alpine
+FROM node:16-alpine3.16
 
 EXPOSE 3000
 
