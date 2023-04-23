@@ -10,7 +10,7 @@ services:
     build:
       context: .
       dockerfile: nginx.Dockerfile
-    image: ajiths10/nginx-bootrap
+   # image: ajiths10/nginx-bootrap
     ports:
       - '80:80'
   web:
